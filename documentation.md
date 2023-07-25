@@ -71,4 +71,3 @@ The library includes functions to perform various operations on the MCP4251, suc
 23. `float MCP4251::DigitalPotPositionToResistance(bool potNum, uint16_t position)`
     - Converts a given wiper position value to the equivalent resistance for the specified potentiometer channel.
 
-The library seems to provide a comprehensive set of functions to interact with the MCP4251 digital potentiometer and allows users to control its behavior effectively. To use this library, you would include the "MCP4251.h" header file and initialize the MCP4251 object with the desired parameters. Then, you can call the functions to perform various operations on the potentiometer channels.
